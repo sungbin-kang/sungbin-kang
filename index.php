@@ -22,12 +22,12 @@ if(isset($_POST['submit'])){
 <html lang="en">
 
 <head>
-  <title>Form submission</title>
+  <title>Form submission 22</title>
 </head>
 
 <body>
   <div id="contact-form">
-  <form action="https://sungbin-kang.github.io/" method="post">
+  <form action="" method="post">
     First Name: <input type="text" name="first_name"><br>
     Last Name: <input type="text" name="last_name"><br>
     Email: <input type="text" name="email"><br>
