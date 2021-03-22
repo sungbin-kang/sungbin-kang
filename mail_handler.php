@@ -16,4 +16,24 @@ if(isset($_POST['submit'])){
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
+
+    // $name = $_POST['name'];
+    // $visitor_email = $_POST['email'];
+    // $message = $_POST['message'];
+
+    // $email_subject = 'For Submission';
+    // $meail_body = "User name: $name.\n".
+    //                 "User Email: $visitor_email.\n".
+    //                     "User Message: $message.\n";
+
+    // $to = "sungbin9353@gmail.com";
+
+    // $headers = "From $email_from \r\n";
+
+    // $headers .= "Reply-To: $visitor_email \r\n";
+    
+    // mail($to, $email_subject, $meail_body, $headers);
+
+    // header("Location: email.html");
+
 ?>
